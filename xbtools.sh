@@ -95,7 +95,7 @@ read -p "键入数字以使用:" thirdchoice
 #####################################更新函数
 script_update() {
 cd $workfile;
-wget -N --no-check-certificate https://raw.githubusercontent.com/OPlincn/xbtools/master/xbtools.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/OPlincn/xbtools/master/xbtools.sh && bash xbtools.sh
 }
 #####################################判断是否安装
 install_judge() {
